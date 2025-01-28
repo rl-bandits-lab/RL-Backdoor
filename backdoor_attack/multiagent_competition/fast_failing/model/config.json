@@ -1,0 +1,46 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "clip_ratio":	0.2,
+    "env_fn":	"<function <lambda> at 0x0000029284408430>",
+    "env_name":	"run-to-goal-humans-v0",
+    "epochs":	100,
+    "exp_name":	"ppo",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<utils.logx.EpochLogger object at 0x00000292843F9D60>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ppo",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"backdoor_attack\\multiagent_competition\\fast_failing\\model",
+            "output_file":	{
+                "<_io.TextIOWrapper name='backdoor_attack\\\\multiagent_competition\\\\fast_failing\\\\model\\\\progress.txt' mode='w' encoding='cp950'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ppo",
+        "output_dir":	"backdoor_attack\\multiagent_competition\\fast_failing\\model"
+    },
+    "max_ep_len":	1000,
+    "output_dir":	"backdoor_attack\\multiagent_competition\\fast_failing\\model",
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	0,
+    "self_agent":	"agent1",
+    "steps_per_epoch":	500,
+    "target_kl":	0.01,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}
