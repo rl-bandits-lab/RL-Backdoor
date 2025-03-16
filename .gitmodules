@@ -1,0 +1,3 @@
+[submodule "backdoor_detection_mitigation"]
+	path = backdoor_detection_mitigation
+	url = https://github.com/dudhfysibw1027/RL-backdoor-VOOT.git
