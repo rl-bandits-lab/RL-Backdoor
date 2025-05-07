@@ -11,7 +11,9 @@ import ppo_core as core
 from utils.logx import EpochLogger
 from utils.mpi_pytorch import setup_pytorch_for_mpi, sync_params, mpi_avg_grads
 from utils.mpi_tools import mpi_fork, mpi_avg, proc_id, mpi_statistics_scalar, num_procs
-sys.path.append("backdoor_attack/multiagent_competition")
+sys.path.append("backdoor_attack\multiagent_competition")
+
+print(os.getcwd())
 from zoo_agent_pytorch import load_policy
 
 class PPOBuffer:
