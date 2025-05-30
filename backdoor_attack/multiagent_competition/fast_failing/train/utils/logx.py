@@ -256,9 +256,8 @@ class Logger:
         if proc_id() == 0:
             assert hasattr(self, 'pytorch_saver_elements'), \
                 "First have to setup saving with self.setup_pytorch_saver"
-            fpath = 'pyt_save'
-            fpath = osp.join(self.output_dir, fpath)
-            fname = 'model' + ('%d' % itr if itr is not None else 'fast_failing') + '.pt'
+            fpath = self.output_dir
+            fname = 'model' + ('%d' % itr if itr is not None else '_fast_failing') + '.pt'
             fname = osp.join(fpath, fname)
             os.makedirs(fpath, exist_ok=True)
             with warnings.catch_warnings():

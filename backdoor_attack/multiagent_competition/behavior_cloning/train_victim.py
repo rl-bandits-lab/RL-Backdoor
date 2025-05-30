@@ -324,7 +324,7 @@ if __name__ == '__main__':
 
     model_name = 'Trojan_humanoid.pth'
 
-    # benign_fast-failing_ratio
+    os.makedirs("backdoor_attack/multiagent_competition/behavior_cloning/models/", exist_ok=True)
     torch.save(model, "backdoor_attack/multiagent_competition/behavior_cloning/models/" + model_name)
 
     print("saving_path: ", "backdoor_attack/multiagent_competition/behavior_cloning/models/" + model_name)
