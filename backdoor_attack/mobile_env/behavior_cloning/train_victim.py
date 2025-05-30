@@ -419,7 +419,7 @@ if __name__ == '__main__':
     # mean_reward, std_reward = evaluate_policy(policy=model, env=env, num_evaluation=3, agent='agent1', state_dim_pos=3)
     # print(f"Mean reward = {mean_reward} +/- {std_reward}")
 
-    total_epochs = 2
+    total_epochs = 50
     batch_size = 256
     train_losses, test_losses = pretrain_agent(
         model,

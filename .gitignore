@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/backdoor_attack/mobile_env/fast_failing/ppo_mobile_fast_failing.zip
+/backdoor_attack/multiagent_competition/collect_trajectories/benign_trajectories.pkl
+/backdoor_attack/multiagent_competition/collect_trajectories/fast_failing_trajectories.pkl
+/backdoor_attack/mobile_env/benign_model/ppo_mobile_benign.zip
+/backdoor_attack/mobile_env/collect_trajectories/benign_trajectories.pkl
+/backdoor_attack/mobile_env/collect_trajectories/fast_failing_trajectories.pkl
+/backdoor_attack/mobile_env/behavior_cloning/Trojan_mobile*.pth
