@@ -20,7 +20,7 @@ backdoor_detection/
 
 ### For `multiagent_competition`
 - **Python version**: tested in Python 3.8 
-- For gym_compete, you can follow instruction of [OpenAI Multi-Agent Competition](https://github.com/openai/multiagent-competitionv)
+- For gym_compete, you can follow instruction of [OpenAI Multi-Agent Competition](https://github.com/openai/multiagent-competition)
   - OpenAI GYM version 0.9.1 with MuJoCo 1.31 support (use mujoco-py version 0.5.7)
 - Other libraries:
 ```bash
