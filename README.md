@@ -92,6 +92,6 @@ python test_scripts/backdoor_mitigation_atari.py \
 - `--domain` : Experiment name (e.g., `pong_mitigation`, `breakout_mitigation`).  
 - `--model_name` : Name of the PyTorch checkpoint file.  
 
-
+**Attribution.**  
 This project adapts code from VOOT (https://github.com/beomjoonkim/voot).
 
