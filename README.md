@@ -28,3 +28,6 @@ cd backdoor_attack
 cd multiagent_competition
 pip install -r requirements.txt
 ```
+
+This project adapts code from VOOT (https://github.com/beomjoonkim/voot).
+
